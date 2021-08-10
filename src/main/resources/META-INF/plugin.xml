@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.fernandojimenez.ash.theme.theme-ash</id>
+    <name>Ash Theme</name>
+    <vendor email="luisfer.0793@gmail.com" url="https://github.com/luisfer0793">Github Profile</vendor>
+
+    <description>Beautiful dark and light based theme with comfortable reading syntax</description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="8b8b4bc4-ffa1-45f4-9aa9-2ffd927e54fd" path="/META-INF/themes/Ash_Deep.theme.json"/>
+        <themeProvider id="4d537a06-01b8-42d8-a4ad-087266111614" path="/META-INF/themes/Ash_Bright.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

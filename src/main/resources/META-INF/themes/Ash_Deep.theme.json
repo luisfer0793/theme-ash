@@ -1,0 +1,97 @@
+{
+	"name": "Ash Deep",
+	"dark": true,
+	"author": "",
+	"editorScheme": "/META-INF/themes/Ash_Deep.xml",
+	"ui": {
+		"*": {
+			"background": "#07101e",
+			"borderColor": "#1C222C",
+			"foreground": "#aaafb0",
+			"separatorColor": "#1C222C",
+			"inactiveForeground": "#5D6976",
+			"lineSeparatorColor": "#1C222C",
+			"selectionForeground": "#e6f8fc",
+			"selectionBackground": "#313844",
+			"selectionInactiveBackground": "#1C222C",
+			"windowBorder": "#1C222C"
+		},
+		"ActionButton": {
+			"hoverBackground": "#1E252F",
+			"hoverBorderColor": "#74818c",
+			"pressedBackground": "#353b44",
+			"pressedBorderColor": "#3dafa4"
+		},
+		"Component": {
+			"focusedBorderColor": "#626e77"
+		},
+		"Borders": {
+			"color": "#1C222C",
+			"ContrastBorderColor": "#1c222c"
+		},
+		"Button": {
+			"disabledBorderColor": "#272c37",
+			"disabledText": "#272c37",
+			"startBackground": "#07101e",
+			"endBackground": "#07101e",
+			"startBorderColor": "#74818c",
+			"endBorderColor": "#74818c",
+			"default": {
+				"foreground": "#e3f0f4",
+				"startBackground": "#313f44",
+				"endBackground": "#313f44",
+				"startBorderColor": "#74818c",
+				"endBorderColor": "#74818c"
+			}
+		},
+		"ComboBox": {
+			"nonEditableBackground": "#07101e",
+			"ArrowButton": {
+				"background": "#1E252F"
+			}
+		},
+		"EditorTabs": {
+			"underlineColor": "#68d6d8",
+			"inactiveUnderlineColor": "#6d757a",
+			"underlineHeight": 1,
+			"hoverBackground": "#1E252F"
+		},
+		"FileColor": {
+			"Yellow": "#2b2922"
+		},
+		"NavBar": {
+			"borderColor": "#1c222c"
+		},
+		"StatusBar": {
+			"borderColor": "#1C222C",
+			"hoverBackground": "#1E252F"
+		},
+		"Tree": {
+			"rowHeight": 22
+		},
+		"ToolBar": {
+			"borderHandleColor": "#1C222C"
+		},
+		"ToolTip": {
+			"borderColor": "#1C222C"
+		},
+		"ToolWindow": {
+			"HeaderTab": {
+				"hoverBackground": "#1E252F",
+				"underlineColor" : "#68d6d8",
+				"underlineHeight": 1
+			},
+			"Button": {
+				"selectedForeground": "#E8F2F7",
+				"selectedBackground": "#1E252F",
+				"hoverBackground": "#1E252F"
+			}
+		}
+	},
+	"icons": {
+		"ColorPalette": {
+			"Checkbox.Background.Default": "#1E252F",
+			"Checkbox.Border.Default": "#626e77"
+		}
+	}
+}
